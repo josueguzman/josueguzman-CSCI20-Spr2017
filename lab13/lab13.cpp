@@ -11,7 +11,7 @@ int main () {
     int futureYearPop = 0;            // future population
     
     int bornPerMin = 4 * 1;
-    int bornPerHour = bornPerMin * 60;
+    int bornPerHour = bornPerMin * 60; 
     int bornPerDay = bornPerHour * 24;
     int bornPerYear = bornPerDay * 365;
     
