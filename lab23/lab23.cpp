@@ -1,28 +1,36 @@
 #include <iostream>
 #include <cstdlib>     
 #include <ctime>       
-#include <string>
 using namespace std;
 
+// Random # generator between the two #s, swaps them and generates # between them
+void RandomNumGen (int& num1, int& num2); 
+
+// Accepts two #s and swaps them
+void swap (int num1, int num2);
 
 int main() {
-   
-void swap (int num1, int num2, int num3) {
-  int x;
-  int y;
-  
-  x = num1;
-  y = num2;
-  z = num3;
-  num1 = y;
-  num2 = x;
-  num3 = z;
-  
+int smallNum;
+int largeNum;
+
+cout << "Enter small number: ";
+cin  >> smallNum;
+cout << "Enter large number: ";
+cin  >> largeNum;
+
+RandomNumGen(smallNum, largeNum); {
+return;
+    
 }
 
-void randnum (int num1, int num2, int num3) {
-srand(time(0));     // random number generator
+//int& a = b is setting a's ADDRESS to b's ADDRESS (a is a reference to b)
+void swap (int& num1, int& num2) {
     
+}
+  
+  
+  
+  
 }
 
    return 0;
