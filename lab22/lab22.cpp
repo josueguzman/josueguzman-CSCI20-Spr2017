@@ -9,6 +9,7 @@
 using namespace std;
 
 int main() {
+   
    srand(time(0));     
 
    cout << "This program generates random numbers." << '\n';

@@ -1,15 +1,35 @@
+/* Lab 2.3 | Created By: Josue Guzman | Date: 3/10/17
+ * This program promps user to enter 2 #s, swaps them, and generates a # between them
+ */
+
 #include <iostream>
 #include <cstdlib>     
 #include <ctime>       
 using namespace std;
 
-// Random # generator between the two #s, swaps them and generates # between them
-void RandomNumGen (int& num1, int& num2); 
+void RandomNumGen (int num1, int num2); // Declaration 
 
-// Accepts two #s and swaps them
-void swap (int num1, int num2);
+void swap (int& num1, int& num2); // Declaration
+
+void RandomNumGen(int num1, int num2) // Definition
+
+{ 
+    swap (num1, num2); // swapping two values using function swap
+    srand(time(0));
+    cout << (rand() % num1) + num2 <<endl;
+}
+
+void swap (int& num1, int& num2) // Definition
+{
+    int temporaryBucket; // uses a third bucket to store numbers temporarily 
+    temporaryBucket = num1;
+    num1 = num2;
+    num2 = temporaryBucket;
+    return;
+}
 
 int main() {
+    
 int smallNum;
 int largeNum;
 
@@ -18,20 +38,8 @@ cin  >> smallNum;
 cout << "Enter large number: ";
 cin  >> largeNum;
 
-RandomNumGen(smallNum, largeNum); {
-return;
+RandomNumGen(smallNum, largeNum); // Calling the fuction
     
+    return 0;
 }
 
-//int& a = b is setting a's ADDRESS to b's ADDRESS (a is a reference to b)
-void swap (int& num1, int& num2) {
-    
-}
-  
-  
-  
-  
-}
-
-   return 0;
-}
