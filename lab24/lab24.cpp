@@ -1,3 +1,11 @@
+/* Lab 2.4 Function Returns
+   By Josue Guzman
+   
+   This program has a random # generator that accepts two values, swaps them
+   and then uses them to return a # between those values. It also accepts LBS
+   and returns the Kilogram equivalent and then returns back to LBS.
+ */
+
 #include <iostream>
 #include <cstdlib>     
 #include <ctime>       
