@@ -1,6 +1,6 @@
-/* Lab 4.2 - Parallel Arrays
+/* Lab 4.3 - Arrays of Objects
  * Created by Josue Guzman
- * April 13, 2017
+ * April 18, 2017
 
  * This program mimics an online shopping cart.  This program simulates an online 
  shop that is used to keep track of inventory, price and the user’s shopping cart.  
