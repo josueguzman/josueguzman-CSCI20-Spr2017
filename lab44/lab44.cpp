@@ -43,7 +43,8 @@ int main() {
         cin >> last;
     }
     
-    cout << "Which of these user names would you like to use?" << endl; // Ask user which name he/she prefers
+    cout << first << " " << last << ", " << "Which of these user names would you like to use?" << endl; // Ask user which name he/she prefers
+    cout << endl;
     cout << "1) " << first << last << endl;
     cout << "2) " << first[0] << last[0] << endl;
     cout << "3) " << first[i] << last[i] << last << endl;
