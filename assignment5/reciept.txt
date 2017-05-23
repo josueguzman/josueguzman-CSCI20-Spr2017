@@ -1,10 +1,10 @@
 Receipt:
-blue shirt  $15
 red shirt  $10
-green shirt  $15
+blue shirt  $10
+blue shirt  $15
 
-Your total before tax is: $40
+Your total before tax is: $35
 
-Your tax is : $2.90
+Your tax is : $2.54
 
-Your grand total is: $42.90
+Your grand total is: $37.54
